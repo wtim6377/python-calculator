@@ -1,0 +1,55 @@
+# Addition = 1                          #assigned math variables
+# Subtraction = 2                       #assigned math variables
+# Division = 3                          #assigned math variables
+# Multipilication = 4                   #assigned math variables
+# Modulus = 5                           #assigned math variables
+# Cancel = 0                            #assigned math variables
+
+
+ 
+
+
+
+#Caclulator welcome screen awaiting user's mathematical input decision.
+
+print("WELCOME TO TIMMYDUBZ CALCUMALATOR")
+print("Please make a selection from the following options: ")
+print("1) Addition 2) Subtraction 3) Division 4) Multiplication 5) Modulus 0) Cancel")
+
+#User input to select mathmatical type.
+
+input1=int(input(" "))
+if input1 == 1:
+    x= int(input("Type your first number: "))
+    y= int(input("Type your second number: "))
+    sum = x+y
+    print("Your sum is: ", sum)
+
+elif input1 == 2:
+    x= int(input("Type your first number: "))
+    y= int(input("Type your second number: "))
+    sum = x-y
+    print("Your difference is: ", sum) 
+
+elif input1 == 3:
+    x= int(input("Type your first number: "))
+    y= int(input("Type your second number: "))
+    sum = x/y
+    print("Your remainder is: ", sum)
+
+elif input1 == 4:
+    x= int(input("Type your first number: "))
+    y= int(input("Type your second number: "))
+    sum = x*y
+    print("Your product is: ", sum)
+
+elif input1 == 5:
+    x= int(input("Type your first number: "))
+    y= int(input("Type your second number: "))
+    sum = x%y
+    print("Your remainder is: ", sum)
+
+elif input1 == 0:
+    print("Thank you for using my calcumalator!")
+else:
+    print("Sorry that was not a valid option try again later scuba steve.")
